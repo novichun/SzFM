@@ -1,0 +1,2 @@
+# SzFM
+Szoftverfejlesztési Módszertanok
