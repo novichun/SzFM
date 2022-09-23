@@ -3,7 +3,6 @@
 <h4 align="center">Webáruház</h1>
 
 
----
 
 ## Tartalom
 
@@ -34,7 +33,7 @@
     7. Verzió kezelés
 
 4. **Szerzők** 
----
+
 
 <h2 align="center">Követelmények</h1>
 
@@ -119,7 +118,7 @@ Az üzleti teendők automatizálása kulcsfontosságú a hatékony ügyvitel sze
 
 A verziókezelői tevékenységek végrehajtására a Git nyílt forráskódú, elosztott verziókezelő szoftvert használjuk
 
----
+
 
 <h2 align="center">Szerzők</h1>
 
@@ -130,3 +129,9 @@ A verziókezelői tevékenységek végrehajtására a Git nyílt forráskódú, 
 <h2 align="center">Hivatkozások</h1>
 
 [Funkcionális követelmények](https://adoc.pub/9-sz-melleklet-internetes-ertekesites-vallalati-webaruhaz-fu.html)
+
+<h2 align="center">Verziók</h1>
+
+* **Laravel** (v9.31.0)
+* **Php** (v8.0.11)
+* **Docker** (20.10.7)
