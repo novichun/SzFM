@@ -54,9 +54,7 @@
 
 | Kötelezően teljesítendő követelmények  | A tesztelés módszere |
 | ------------- | ------------- |
-| 2.	Kosárfunkció és regisztráció  | Egy vásárlási folyamat bemutatása, ahol a kosárba bepakolásra kerül legalább 15 darab és 10 különböző termék, vagy ha ennyi kínált termék nincs, akkor az összes megvásárolható árucikk.
-Egy legalább 5 elemű, egyenként 3-3 darabot tartalmazó (azaz összesen 15 db termék, vagy ha ennyi kínált termék nincs, akkor az összes megvásárolható árucikk) bevásárlókosárból egy, azaz egy darab termék eltávolítása.
-Egy tetszőleges bevásárló kosár (vagy kívánság lista) tartalmának a létrehozása, eltárolása, ami után a felhasználó kijelentkezik a rendszerből, majd visszajelentkezés után a bevásárló kosár (vagy kívánság lista) tartalmának az ellenőrzése.
+| 2.	Kosárfunkció és regisztráció  | Egy vásárlási folyamat bemutatása, ahol a kosárba bepakolásra kerül legalább 15 darab és 10 különböző termék, vagy ha ennyi kínált termék nincs, akkor az összes megvásárolható árucikk. Egy legalább 5 elemű, egyenként 3-3 darabot tartalmazó (azaz összesen 15 db termék, vagy ha ennyi kínált termék nincs, akkor az összes megvásárolható árucikk) bevásárlókosárból egy, azaz egy darab termék eltávolítása. Egy tetszőleges bevásárló kosár (vagy kívánság lista) tartalmának a létrehozása, eltárolása, ami után a felhasználó kijelentkezik a rendszerből, majd visszajelentkezés után a bevásárló kosár (vagy kívánság lista) tartalmának az ellenőrzése.
 Kívánság lista használata esetén annak ellenőrzése, hogy annak elemei, egyenként és összesen is átrakhatóak legyenek a bevásárló kosárba.  |
 | Célja a rendszer alap tulajdonságának a biztosítása  |
 | A rendszer tegye lehetővé bevásárló kosár használatát. |
