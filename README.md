@@ -41,7 +41,7 @@
 
 | Kötelezően teljesítendő követelmények |	A tesztelés módszere |
   :-----------------------------------:    :--------------------:
-| 1.	Termék, szolgáltatás információk |	A funkcionális követelményben meghatározott feltételek meglétének ellenőrzése legalább 10 cikk vagy valamennyi                                               termék (11 termék alatti portfoliónál) esetében. Az áruház feltöltöttségének ellenőrzése, oly módon, hogy a cég                                               alap, eladásra szánt áru- és szolgáltatás készlete megtalálható a webáruház felületén megrendelhető tételként. |
+| 1.	Termék, szolgáltatás információk |	A funkcionális követelményben meghatározott feltételek meglétének ellenőrzése legalább 10 cikk vagy valamennyi termék (11 termék alatti portfoliónál) esetében. Az áruház feltöltöttségének ellenőrzése, oly módon, hogy a cég alap, eladásra szánt áru- és szolgáltatás készlete megtalálható a webáruház felületén megrendelhető tételként. |
 |Célja a termékek/szolgáltatások ismertségének növelése, a kereslet fokozása. A cég termék/ szolgáltatás portfóliójának részletes ismertetése legalább az alábbi információk megadásával:|	
 | •	a termék/szolgáltatás megnevezése; 	|
 | •	a termék/szolgáltatás lényegi leírása, bemutatása	|
@@ -50,8 +50,14 @@
 | •	a termék/szolgáltatás műszaki paraméterei, vagy fel-használási feltételei	|
 | •	a termék/szolgáltatás ára/díjazása, kedvezmények; 	|
 
-| First Header  | Second Header |
+| Kötelezően teljesítendő követelmények  | A tesztelés módszere |
 | ------------- | ------------- |
+| 1.	Termék, szolgáltatás információk  | A funkcionális követelményben meghatározott feltételek meglétének ellenőrzése legalább 10 cikk vagy valamennyi termék (11 termék alatti portfoliónál) esetében. Az áruház feltöltöttségének ellenőrzése, oly módon, hogy a cég alap, eladásra szánt áru- és szolgáltatás készlete megtalálható a webáruház felületén megrendelhető tételként.  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
