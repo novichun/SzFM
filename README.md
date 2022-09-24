@@ -50,7 +50,10 @@
 | •	a termék/szolgáltatás műszaki paraméterei, vagy fel-használási feltételei	|
 | •	a termék/szolgáltatás ára/díjazása, kedvezmények; 	|
 
-
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 
