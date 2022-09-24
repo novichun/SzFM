@@ -43,13 +43,24 @@
 | Kötelezően teljesítendő követelmények  | A tesztelés módszere |
 | ------------- | ------------- |
 | 1.	Termék, szolgáltatás információk  | A funkcionális követelményben meghatározott feltételek meglétének ellenőrzése legalább 10 cikk vagy valamennyi termék (11 termék alatti portfoliónál) esetében. Az áruház feltöltöttségének ellenőrzése, oly módon, hogy a cég alap, eladásra szánt áru- és szolgáltatás készlete megtalálható a webáruház felületén megrendelhető tételként.  |
-| Célja a termékek/szolgáltatások ismertségének növelése, a kereslet fokozása. A cég termék/ szolgáltatás portfóliójának részletes ismertetése legalább az alábbi információk megadásával:  | 
-| •	a termék/szolgáltatás megnevezése;   | 
-| •	a termék/szolgáltatás lényegi leírása, bemutatása  | 
-| •	a  termék  vagy  a  termékhez  szorosan  köthető  kép  megjelenítése  | 
-| •	a termék/szolgáltatás kategóriája a cég által használt csoportosítás szerint;  | 
-| •	a termék/szolgáltatás műszaki paraméterei, vagy fel-használási feltételei  | 
-| •	a termék/szolgáltatás ára/díjazása, kedvezmények;   | 
+| Célja a termékek/szolgáltatások ismertségének növelése, a kereslet fokozása. |
+| A cég termék/ szolgáltatás portfóliójának részletes ismertetése legalább az alábbi információk megadásával:  |
+| •	a termék/szolgáltatás megnevezése;   |
+| •	a termék/szolgáltatás lényegi leírása, bemutatása  |
+| •	a  termék  vagy  a  termékhez  szorosan  köthető  kép  megjelenítése  |
+| •	a termék/szolgáltatás kategóriája a cég által használt csoportosítás szerint;  |
+| •	a termék/szolgáltatás műszaki paraméterei, vagy fel-használási feltételei  |
+| •	a termék/szolgáltatás ára/díjazása, kedvezmények;   |
+
+| Kötelezően teljesítendő követelmények  | A tesztelés módszere |
+| ------------- | ------------- |
+| 2.	Kosárfunkció és regisztráció  | Egy vásárlási folyamat bemutatása, ahol a kosárba bepakolásra kerül legalább 15 darab és 10 különböző termék, vagy ha ennyi kínált termék nincs, akkor az összes megvásárolható árucikk.
+Egy legalább 5 elemű, egyenként 3-3 darabot tartalmazó (azaz összesen 15 db termék, vagy ha ennyi kínált termék nincs, akkor az összes megvásárolható árucikk) bevásárlókosárból egy, azaz egy darab termék eltávolítása.
+Egy tetszőleges bevásárló kosár (vagy kívánság lista) tartalmának a létrehozása, eltárolása, ami után a felhasználó kijelentkezik a rendszerből, majd visszajelentkezés után a bevásárló kosár (vagy kívánság lista) tartalmának az ellenőrzése.
+Kívánság lista használata esetén annak ellenőrzése, hogy annak elemei, egyenként és összesen is átrakhatóak legyenek a bevásárló kosárba.  |
+| Célja a rendszer alap tulajdonságának a biztosítása  |
+| A rendszer tegye lehetővé bevásárló kosár használatát. |
+| A kosár legyen alkalmas több cikk tárolására, és adjon lehetőséget cikkek egyenként történő eltávolítására a kosárból, illetve tegye lehetővé a kosár tartalmának eltárolását a vásárlás későbbi befejezésének a lehetőségére. Ez utóbbi funkció kiváltható egy kívánság listával. Ebben az esetben a rendszernek alkalmasnak kell lennie arra, hogy a kívánság lista elemeit egy gombnyomással át lehessen pakolni a kosárba. |
 
 
 
