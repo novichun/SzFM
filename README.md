@@ -39,11 +39,20 @@
 
 **Funkcionális követelmények:**
 
-Első lépésként a termékek, szolgáltatások megnevezését és bemutatását készítjük el, aztán a weboldal regisztráció és kosár funkcióját hozzuk létre.
+| Kötelezően teljesítendő követelmények |	A tesztelés módszere |
+  :-----------------------------------:    :--------------------:
+| 1.	Termék, szolgáltatás információk |	A funkcionális követelményben meghatározott feltételek meglétének ellenőrzése legalább 10 cikk vagy valamennyi                                               termék (11 termék alatti portfoliónál) esetében. Az áruház feltöltöttségének ellenőrzése, oly módon, hogy a cég                                               alap, eladásra szánt áru- és szolgáltatás készlete megtalálható a webáruház felületén megrendelhető tételként. |
+|Célja a termékek/szolgáltatások ismertségének növelése, a kereslet fokozása. A cég termék/ szolgáltatás portfóliójának részletes ismertetése legalább az alábbi információk megadásával:|	
+| •	a termék/szolgáltatás megnevezése; 	|
+| •	a termék/szolgáltatás lényegi leírása, bemutatása	|
+| •	a  termék  vagy  a  termékhez  szorosan  köthető  kép  megjelenítése	|
+| •	a termék/szolgáltatás kategóriája a cég által használt csoportosítás szerint;	|
+| •	a termék/szolgáltatás műszaki paraméterei, vagy fel-használási feltételei	|
+| •	a termék/szolgáltatás ára/díjazása, kedvezmények; 	|
 
-Később a szállítási mód, változatok kezelését valósítjuk meg. Ezután a fizetési móddal foglalkozunk. A cég alapadatainak szerepeltetése is egy fontos lépés, ezért feltüntetjük a weboldal felületén.
 
-Végezetül a gyakran ismételt kérdések (GyIK) és az internetes ügyfélszolgáltatás lehetőségét is megteremtjük, hogy weboldalunk hiteles és fejlődőképes legyen.
+
+
 
 **Jogi követelmények:**
 
