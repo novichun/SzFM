@@ -134,4 +134,6 @@ A verziókezelői tevékenységek végrehajtására a Git nyílt forráskódú, 
 
 * **Laravel** (v9.31.0)
 * **Php** (v8.0.11)
-* **Docker** (20.10.7)
+* **Docker** (v20.10.7)
+* **Npm** (v7.24.1)
+* **NodeJS** (v16.17.1)
