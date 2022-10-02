@@ -20,4 +20,8 @@
         </div>
     </div>
 </div>
+@if (Auth::user() && Auth::user()->is_admin == '1')
+    Ezt csak admin latja
+@endif
+asd
 @endsection
