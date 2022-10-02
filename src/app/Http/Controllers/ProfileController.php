@@ -69,9 +69,30 @@ class ProfileController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        //
+        $request->validate([
+            'name' =>'min:4|string|max:255',
+            'telefon' =>'numeric',
+            'postal' =>'integer',
+            'hazszam' =>'integer',
+        ], [
+            'telefon.numeric' => 'A telefonszám csak számokat tartalmazhat.',
+            'postal.integer' => 'Az irányítószám csak számokat tartalmazhat.',
+            'hazszam.integer' => 'A házszám csak számokat tartalmazhat.',
+        ]);
+
+        
+        
+        $user = Auth::user();
+        $user->name = $request['name'];
+        $user->telefon = $request['telefon'];
+        $user->postal = $request['postal'];
+        $user->varos = $request['varos'];
+        $user->utca = $request['utca'];
+        $user->hazszam = $request['hazszam'];
+        $user->save();
+        return redirect('profile-dashboard')->withErrors(['Sikeresen módosította a profilját!']);
     }
 
     /**

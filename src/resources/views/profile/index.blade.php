@@ -2,7 +2,14 @@
 
 @section('content')
 
+@if($errors->any())
+<div class="alert alert-success" role="alert">
+  {{$errors->first()}}
+</div>
+@endif
+
 <div class="container">
+  
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -169,7 +176,7 @@
                                   </div>
                                 </div>
                               </div>
-                              <button type="button" class="btn btn-primary"><a href="{{ route('profile.edit') }}">Profil szerkesztése</a></button>
+                              <button type="button" class="btn btn-primary"><a style="color:white; text-decoration: none;" href="{{ route('profile.edit') }}">Profil szerkesztése</a></button>
                             </div>
                           </div>
 
