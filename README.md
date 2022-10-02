@@ -32,7 +32,13 @@
 
     7. Verzió kezelés
 
-4. **Szerzők** 
+4. **Features**
+
+5. **Szerzők** 
+
+6. **Hivatkozások** 
+
+7. **Verziók** 
 
 
 <h2 align="center">Követelmények</h1>
@@ -118,7 +124,7 @@ Az üzleti teendők automatizálása kulcsfontosságú a hatékony ügyvitel sze
 
 A verziókezelői tevékenységek végrehajtására a Git nyílt forráskódú, elosztott verziókezelő szoftvert használjuk
 
-
+<h2 align="center">Features</h1>
 
 <h2 align="center">Szerzők</h1>
 
