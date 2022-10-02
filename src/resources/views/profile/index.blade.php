@@ -10,7 +10,8 @@
 
                 <div class="card-body">
                    
-                    
+                  
+                      
 
 
                     <section style="background-color: #eee;">
@@ -29,6 +30,7 @@
                               </div>
                               
                             </div>
+                            
                             <div class="col-lg-8">
                               <div class="card mb-4">
                                 <div class="card-body">
@@ -45,7 +47,7 @@
                                     <div class="col-sm-3">
                                       <p class="mb-0">Email</p>
                                     </div>
-                                    <div class="col-sm-9">
+                                    <div class="col-sm-9 text-right">
                                       <p class="text-muted mb-0">{{ Auth::user()->email }}</p>
                                     </div>
                                   </div>
@@ -55,16 +57,91 @@
                                       <p class="mb-0">Telefonszám</p>
                                     </div>
                                     <div class="col-sm-9">
-                                      <p class="text-muted mb-0"></p>
+                                      <p class="text-muted mb-0">
+                                        @if (Auth::user()->telefon == '0')
+                                        Ismeretlen
+                                        @else
+                                        {{ Auth::user()->telefon }}
+                                        @endif    
+                                    </p>
                                     </div>
                                   </div>
                                   <hr>
                                   <div class="row">
                                     <div class="col-sm-3">
-                                      <p class="mb-0">Lakcím</p>
+                                      <p class="mb-0">Irányítószám</p>
                                     </div>
                                     <div class="col-sm-9">
-                                      <p class="text-muted mb-0"></p>
+                                      <p class="text-muted mb-0">
+                                        @if (Auth::user()->postal == '0')
+                                        Ismeretlen
+                                        @else
+                                        {{ Auth::user()->postal }}
+                                        @endif       
+                                    </p>
+                                    </div>
+                                  </div>
+                                  <hr>
+                                  <div class="row">
+                                    <div class="col-sm-3">
+                                      <p class="mb-0">Város</p>
+                                    </div>
+                                    <div class="col-sm-9">
+                                      <p class="text-muted mb-0">
+                                        @if (Auth::user()->varos == '0')
+                                        Ismeretlen
+                                        @else
+                                        {{ Auth::user()->varos }}
+                                        @endif       
+                                    </p>
+                                    </div>
+                                  </div>
+                                  <hr>
+                                  <div class="row">
+                                    <div class="col-sm-3">
+                                      <p class="mb-0">Utca</p>
+                                    </div>
+                                    <div class="col-sm-9">
+                                      <p class="text-muted mb-0">
+                                        @if (Auth::user()->utca == '0')
+                                        Ismeretlen
+                                        @else
+                                        {{ Auth::user()->utca }}
+                                        @endif   
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <hr>
+                                  <div class="row">
+                                    <div class="col-sm-3">
+                                      <p class="mb-0">Házszám</p>
+                                    </div>
+                                    <div class="col-sm-9">
+                                      <p class="text-muted mb-0">
+                                        @if (Auth::user()->hazszam == '0')
+                                        Ismeretlen
+                                        @else
+                                        {{ Auth::user()->hazszam }}
+                                        @endif   
+                                    </p>
+                                    </div>
+                                  </div>
+                                  <hr>
+                                  <div class="row">
+                                    <div class="col-sm-3">
+                                      <p class="mb-0">Profil létrehozása</p>
+                                    </div>
+                                    <div class="col-sm-9">
+                                      <p class="text-muted mb-0">{{ Auth::user()->created_at }}</p>
+                                    </div>
+                                  </div>
+                                  <hr>
+                                  <div class="row">
+                                    <div class="col-sm-3">
+                                      <p class="mb-0">Profil módosítása</p>
+                                    </div>
+                                    <div class="col-sm-9">
+                                      <p class="text-muted mb-0">{{ Auth::user()->updated_at }}</p>
                                     </div>
                                   </div>
                                   <hr>
@@ -84,9 +161,7 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="row">
                               
-                              </div>
                             </div>
                           </div>
                         </div>
