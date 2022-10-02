@@ -14,7 +14,7 @@
                 <div class="card-header">{{ __('Kezdőlap') }}</div>
 
                 <div class="card-body">
-                    Üdvözöljük, {{ Auth::user()->name }}!
+                    Üdvözöljük, {{ Auth::user()->name ?? 'Vendég' }}!
                 </div>
             </div>
         </div>
