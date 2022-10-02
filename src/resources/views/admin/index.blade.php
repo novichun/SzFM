@@ -2,26 +2,19 @@
 
 @section('content')
 
-@if($errors->any())
-<div class="alert alert-danger" role="alert">
-    {{$errors->first()}}
-  </div>
-@endif
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Kezdőlap') }}</div>
+                <div class="card-header">{{ __('Admin Panel') }}</div>
 
                 <div class="card-body">
-                    Üdvözöljük, {{ Auth::user()->name }}!
+                   asd
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
 
 
 @endsection

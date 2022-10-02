@@ -20,7 +20,7 @@ class IsAdminOrNot
         if (Auth::user() && Auth::user()->is_admin == 1) {
              return $next($request);
         }
+        return redirect()->back()->withErrors(['Az alábbi tartalomhoz nincs hozzáférése!']);
 
-        return redirect('/normal-role-users-page')->with('error','You are not Admin');
     }
 }
