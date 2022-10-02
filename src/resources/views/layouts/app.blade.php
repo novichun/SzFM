@@ -60,19 +60,19 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item">
+                                    <a class="dropdown-item" href="{{ route('profile.index') }}">
                                        Profil
                                     </a>
                                     @if (Auth::user() && Auth::user()->is_admin == '1')
-                                    <a class="dropdown-item">
-                                        <a class="nav-link" href="{{ route('admin.index') }}">{{ __('Admin Panel') }}</a>
+                                    <a class="dropdown-item" href="{{ route('admin.index') }}">
+                                      {{ __('Admin Panel') }}
                                      </a>
                                      @endif
                                     <hr>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
+                                        {{ __('Kijelentkezés') }}
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

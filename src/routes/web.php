@@ -24,3 +24,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::get('/admin-dashboard', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');
 });
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/profile-dashboard', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile.index');
+});
