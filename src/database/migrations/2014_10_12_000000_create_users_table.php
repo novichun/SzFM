@@ -24,6 +24,7 @@ return new class extends Migration
             $table->string('varos')->default('0');
             $table->string('utca')->default('0');
             $table->integer('hazszam')->default('0');
+            $table->string('image')->default('user.png');
             $table->string('is_admin')->default('0');
             $table->rememberToken();
             $table->timestamps();

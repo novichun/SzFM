@@ -169,7 +169,7 @@
                                   </div>
                                 </div>
                               </div>
-                              <button type="button" class="btn btn-primary"><a href="{{ route('profile.edit') }}">Profil szerkesztése</a></button>
+                              <button type="button" class="btn btn-primary">Profil szerkesztése</button>
                             </div>
                           </div>
 

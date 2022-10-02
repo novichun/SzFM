@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Auth;
 class ProfileController extends Controller
 {
     /**
@@ -12,7 +12,8 @@ class ProfileController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
+    {   
+       
         return view('profile.index');
     }
 
@@ -54,9 +55,11 @@ class ProfileController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit()
     {
-        //
+        
+        return view('profile.edit')->with('user', Auth::user());
+
     }
 
     /**
@@ -81,4 +84,16 @@ class ProfileController extends Controller
     {
         //
     }
+
+    public function upload(Request $request)
+    {
+        if($request->hasFile('image')){
+            $filename = $request->image->getClientOriginalName();
+            $request->image->storeAs('images/'.auth()->user()->id.'/','profile-pic.jpg','public');
+            $source = auth()->user()->id."/"."profile-pic.jpg";
+            Auth()->user()->update(['image'=>$source]);
+        }
+        return redirect()->back();
+    }
+
 }

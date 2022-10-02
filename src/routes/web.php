@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Routes;
+use App\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,4 +28,7 @@ Route::group(['middleware' => ['auth', 'admin']], function () {
 });
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/profile-dashboard', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile.index');
+    Route::post('/profile-pic-update', [App\Http\Controllers\ProfileController::class, 'upload'])->name('profile-pic-upload');
+    Route::get('/profile-edit', [App\Http\Controllers\ProfileController::class, 'edit'])->middleware(['auth'])->name('profile.edit');
+
 });
