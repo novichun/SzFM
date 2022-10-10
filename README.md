@@ -34,11 +34,13 @@
 
 4. **Features**
 
-5. **Szerzők** 
+5. **Termék**
 
-6. **Hivatkozások** 
+6. **Szerzők** 
 
-7. **Verziók** 
+7. **Hivatkozások** 
+
+8. **Verziók** 
 
 
 <h2 align="center">Követelmények</h1>
@@ -271,6 +273,9 @@ A tesztek után meg kell vizsgálni, hogy sikeresen teljesítettük-e a kilépé
 Az üzleti teendők automatizálása kulcsfontosságú a hatékony ügyvitel szempontjából. Az egyik ilyen tennivaló a számlázás, ami még akkor is időigényes, ha online számlázunk, amennyiben ezt emberi beavatkozással, kézzel csináljuk. Ennek kiküszöbölésére nyújt kézenfekvő megoldást a [Számla Agent API](https://docs.szamlazz.hu/#introduction) azáltal, hogy direkt hozzáférést biztosít az adatokhoz külső szoftvereknek, például webshopmotoroknak vagy digitális ügyviteli rendszereknek. Ehhez felhasználható a szamlazz.hu api-a.
  Online fizetés, bankkártyás fizetés létrehozása.
  Legvégső fejlesztési lehetőség a webshop kiadása éles szerveren való üzemeltetése.
+ 
+### Termék:
+Előzetes kutatás után, össze válogattuk, akik autós matricákat szeretnének, mik azok amiket legszívesebben ragasztanának az autójukra. A terméket egy alvállalkozó készíti el. Készítünk hozzá egy applikálási útmutatót. 
 
 #### Fejlesztés menete:
 
