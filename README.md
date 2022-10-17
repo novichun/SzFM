@@ -344,3 +344,4 @@ https://icons8.com
 * **Docker** (v20.10.7)
 * **Npm** (v7.24.1)
 * **NodeJS** (v16.17.1)
+* **Photoshop** (19.1.6)
