@@ -325,12 +325,18 @@ A verziókezelői tevékenységek végrehajtására a Git nyílt forráskódú, 
 <h2 align="center">Hivatkozások</h1>
 
 [Funkcionális követelmények](https://adoc.pub/9-sz-melleklet-internetes-ertekesites-vallalati-webaruhaz-fu.html)
-Icons:
-https://www.flaticon.com
-https://remixicon.com
-https://icons8.com
+
 
 [Jogi követelmények](https://virtualjog.hu/2021/10/20/webaruhaz-nyitas-jogi-feltetelei-2021/?gclid=CjwKCAjwpqCZBhAbEiwAa7pXeVTLqYSP5Izf_UPryjHhIZLIvIGHQINDvv0ycI_mIz5JXXc4hUTrsBoC-z8QAvD_BwE&fbclid=IwAR0-Ei8PPY1FuGdK5cqRTTIJG1iOx5u3Wdgjcoh5dcP0L8D_p__qwu3x6e0)
+
+
+Icons:
+
+https://www.flaticon.com
+
+https://remixicon.com
+
+https://icons8.com
 <h2 align="center">Verziók</h1>
 
 * **Laravel** (v9.31.0)
