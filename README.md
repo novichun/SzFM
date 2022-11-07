@@ -316,6 +316,14 @@ A verziókezelői tevékenységek végrehajtására a Git nyílt forráskódú, 
 
 <h2 align="center">Features</h1>
 
+![](md-images/pic2.png)
+![](md-images/pic3.png)
+![](md-images/pic4.png)
+![](md-images/pic5.png)
+![](md-images/pic6.png)
+![](md-images/pic7.png)
+![](md-images/pic8.png)
+
 <h2 align="center">Szerzők</h1>
 
 * **Merk Dóra**
